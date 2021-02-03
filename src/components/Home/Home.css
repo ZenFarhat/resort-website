@@ -40,3 +40,18 @@
 .home__button:active {
   transform: scale(0.98);
 }
+
+@media only screen and (max-width: 600px) {
+  .home__container {
+    width: 90%;
+  }
+
+  .home__title {
+    font-size: 3rem;
+  }
+
+  .home__button {
+    width: 200px;
+    font-size: 1rem;
+  }
+}

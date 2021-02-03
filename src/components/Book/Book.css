@@ -9,12 +9,13 @@
   height: 100%;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .book__text,
 .book__form {
-  width: 20%;
-  height: 60%;
+  width: 500px;
+  height: 550px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,4 +48,35 @@
 .book__textarea:focus,
 .book__textinput:focus {
   outline: none;
+}
+
+.book__button {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.book__button:focus {
+  outline: none;
+}
+
+.book__button:active {
+  transform: scale(0.98);
+}
+
+@media only screen and (max-width: 600px) {
+  .book {
+    height: fit-content;
+  }
+
+  .book__text,
+  .book__form {
+    width: 250px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 5px solid white;
+  }
 }
