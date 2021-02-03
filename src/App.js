@@ -1,8 +1,10 @@
 import "./App.css";
 import Nav from "./components/Nav/Nav";
 import Home from './components/Home/Home'
-import Main from "./components/Main/Main";
+import Restaurants from "./components/Main/Restaurants";
+import About from './components/About/About'
 import Footer from './components/Footer/Footer'
+import Book from './components/Book/Book'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
@@ -11,12 +13,17 @@ function App() {
     <div className='App'>
       <Nav />
       <Switch>
+        <Route path='/Book'>
+          <Book />
+        </Route>
+      <Route path='/About'>
+            <About />
+          </Route>
       <Route path='/restaurants'>
-            <Main />
+            <Restaurants />
           </Route>
       <Route path='/'>
-            <Home />
-            
+            <Home />        
           </Route>
       </Switch>
       <Footer/>

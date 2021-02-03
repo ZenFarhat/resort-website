@@ -1,12 +1,12 @@
 import React from "react";
-import "./Main.css";
+import "./Restaurants.css";
 import RestaurantCard from "./RestaurantCard/RestaurantCard";
 import Curry from "../../images/curry.jpeg";
 import Steak from "../../images/steak.jpg";
 import Sushi from "../../images/sushi.jpg";
 import Taco from "../../images/tacos.jpeg";
 
-function Main() {
+function Restaurants() {
   return (
     <div className='main'>
       <RestaurantCard title='Dosa Village' image={Curry} />
@@ -17,4 +17,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Restaurants;

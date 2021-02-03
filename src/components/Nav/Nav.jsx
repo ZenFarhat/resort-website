@@ -11,8 +11,12 @@ function Nav() {
       <Link className='nav__link' to='/restaurants'>
         <h2>Restaurants</h2>
       </Link>
-      <h2>About</h2>
-      <h2>Book</h2>
+      <Link className='nav__link' to='/about'>
+        <h2>About</h2>
+      </Link>
+      <Link className='nav__link' to='/book'>
+        <h2>Book</h2>
+      </Link>
     </nav>
   );
 }
