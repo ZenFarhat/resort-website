@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./RestaurantCard.css";
 
 function RestaurantCard(props) {
@@ -7,7 +8,9 @@ function RestaurantCard(props) {
       className='restaurant__card'
       style={{ backgroundImage: `url(${props.image})` }}
     >
-      <h1 className='card__title'>{props.title}</h1>
+      <Link to={props.router} className='link'>
+        <h1 className='card__title'>{props.title}</h1>
+      </Link>
     </div>
   );
 }

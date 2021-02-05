@@ -25,6 +25,10 @@
   transition: transform 0.3s ease-out;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .card__title:hover {
   transform: scale(1.1);
   cursor: pointer;

@@ -9,10 +9,18 @@ import Taco from "../../images/tacos.jpeg";
 function Restaurants() {
   return (
     <div className='main'>
-      <RestaurantCard title='Dosa Village' image={Curry} />
-      <RestaurantCard title='Blackrock Grill' image={Steak} />
-      <RestaurantCard title='Sushi Osaka' image={Sushi} />
-      <RestaurantCard title='Del Taco' image={Taco} />
+      <RestaurantCard
+        title='Dosa Village'
+        image={Curry}
+        router='/dosa-village'
+      />
+      <RestaurantCard
+        title='Blackrock Grill'
+        image={Steak}
+        router='blackrock-grill'
+      />
+      <RestaurantCard title='Sushi Osaka' image={Sushi} router='sushi-osaka' />
+      <RestaurantCard title='Del Taco' image={Taco} router='del-taco' />
     </div>
   );
 }

@@ -1,0 +1,29 @@
+.hero {
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42.5vh;
+}
+
+.hero h1 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 500px;
+  text-align: center;
+  height: 250px;
+  border: 5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+.restaurant__about {
+  height: 42.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
