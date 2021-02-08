@@ -41,15 +41,9 @@
   .card__title {
     display: flex;
     padding: 0.5rem;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.9);
-    border: 2px solid white;
-    color: white;
     width: 250px;
     text-align: center;
     height: 200px;
-    font-family: "Montserrat", sans-serif;
     transition: transform 0.3s ease-out;
   }
 }
