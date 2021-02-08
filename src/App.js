@@ -28,28 +28,28 @@ function App() {
             <RestaurantSite
               image={currySite}
               title='Dosa Hut'
-              text='Something something test test test test'
+              text='Spicy, rich, flavourful and diverse food. That is all you need to know about Dosa Hut. We were founded in 1942 and are still delivering a modernised take on indian cuisine.'
             />
           </Route>
           <Route path='/blackrock-grill'>
             <RestaurantSite
               image={SteakSite}
               title='Blackrock Grill'
-              text='Something something test test test test'
+              text='Blackrock grill - come enjoy our delicious steaks & sides in an americanbased cuisine. We are a family-friendly restaurant that caters to everyone.'
             />
           </Route>
           <Route path='/sushi-osaka'>
             <RestaurantSite
               image={sushiSite}
               title='Sushi Osaka'
-              text='Something something test test test test'
+              text='Need a good fine dining and authentic Japanese experience? Say no more, Sushi Osaka is the place to be.'
             />
           </Route>
           <Route path='/del-taco'>
             <RestaurantSite
               image={tacoSite}
               title='Del Taco'
-              text='Something something test test test test'
+              text='Tiara covers many bases when it comes to international cuisine. Del Taco is one of the top authentic mexican restaurants, we know you will love our food and atmosphere.'
             />
           </Route>
           <Route path='/restaurants'>
