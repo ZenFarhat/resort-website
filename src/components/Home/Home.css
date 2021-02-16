@@ -42,6 +42,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .home {
+    height: 90vh;
+  }
+
   .home__container {
     width: 90%;
   }

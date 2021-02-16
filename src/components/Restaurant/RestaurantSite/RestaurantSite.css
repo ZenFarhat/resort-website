@@ -1,11 +1,15 @@
 .hero {
-  height: 40vh;
+  height: 50%;
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 42.5vh;
+}
+
+.restaurantSite {
+  height: 100vh;
 }
 
 .hero h1 {
@@ -22,7 +26,7 @@
 }
 
 .restaurant__about {
-  height: 42.5vh;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;

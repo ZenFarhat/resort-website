@@ -12,6 +12,11 @@ nav {
   font-weight: 100;
 }
 
+.menuIcon {
+  display: none;
+  cursor: pointer;
+}
+
 h1 {
   font-size: 2rem;
 }
@@ -26,12 +31,26 @@ h2 {
 }
 
 @media only screen and (max-width: 600px) {
+  .menuIcon {
+    display: flex;
+  }
+
+  .nav__link {
+    display: none;
+  }
+
+  .nav__link.shown {
+    display: flex;
+    margin: 10px 0;
+  }
+
   nav {
     display: flex;
     flex-direction: column;
     font-size: 2rem;
     flex-wrap: wrap;
-    height: 250px;
+    height: fit-content;
+    padding: 1rem 0;
   }
 
   h1 {

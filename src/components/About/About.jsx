@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function About() {
   return (
@@ -14,7 +15,9 @@ function About() {
           ipsam, quibusdam animi veniam vitae quasi? Fuga sequi et harum ipsa
           eveniet ab fugiat!
         </p>
-        <button className='about__button'>Book Now</button>
+        <Link to='/book'>
+          <button className='about__button'>Book Now</button>
+        </Link>
       </div>
     </div>
   );
